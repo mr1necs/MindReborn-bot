@@ -20,7 +20,7 @@ async def lesson(message: Message):
 
 
 @router.callback_query(F.data == "lesson0_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[0], caption="", reply_markup=kb.les_video_0)
 
 
@@ -32,7 +32,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson1_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[1], caption="", reply_markup=kb.les_video_1)
 
 
@@ -44,7 +44,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson2_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[2], caption="", reply_markup=kb.les_video_2)
 
 
@@ -56,7 +56,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson3_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[3], caption="", reply_markup=kb.les_video_3)
 
 
@@ -68,7 +68,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson4_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[4], caption="", reply_markup=kb.les_video_4)
 
 
@@ -80,7 +80,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson5_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[5], caption="", reply_markup=kb.les_video_5)
 
 
@@ -92,7 +92,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson6_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[6], caption="", reply_markup=kb.les_video_6)
 
 
@@ -104,7 +104,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson7_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[7], caption="", reply_markup=kb.les_video_7)
 
 
@@ -116,7 +116,7 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson8_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[8], caption="", reply_markup=kb.les_video_8)
 
 
@@ -128,5 +128,5 @@ async def lesson(callback: CallbackQuery):
 
 
 @router.callback_query(F.data == "lesson9_video")
-async def videolesson(callback: CallbackQuery):
+async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[9], caption="")
