@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 app/config.py
+.DC_Store
