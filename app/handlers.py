@@ -5,19 +5,18 @@ from aiogram.filters import Command
 import app.textboxs as text
 import app.keyboards as kb
 import app.links as links
-from app.parser import sh
+from app.parser import worksheet
 
 router = Router()
-worksheet = sh.sheet1
 
 
 # ############################################### LESSON 0 ############################################### #
 @router.message(Command('start'))
 async def lesson(message: Message):
-    welcome_text = text.TEXT_LESSON_0_1 + message.from_user.username + text.TEXT_LESSON_0_2
+    welcome_text = str(text.TEXT_LESSON_0_1) + str(message.from_user.full_name) + str(text.TEXT_LESSON_0_2)
     await message.answer_photo(photo=links.image[0], caption=welcome_text,
                                parse_mode='HTML', reply_markup=kb.les_0)
-    # worksheet.insert_row([str(message.from_user.id)], 2)
+    worksheet.insert_row([str(message.from_user.id)], 2)
 
 
 @router.callback_query(F.data == "lesson0_video")
