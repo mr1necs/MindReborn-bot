@@ -26,13 +26,13 @@ video = ['BAACAgIAAxkBAAIBIGYVuVAPEmzQH1m5g9B66NgOwfxQAAIxUAACCiWwSP9Z5R4pS__SNA
 
 # ############################################### ARTICLE ############################################### #
 
-article = ['',
-           '',
-           '',
-           '',
-           '',
-           '',
-           '',
-           '',
-           '',
-           '']
+article = ['https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/',
+           'https://ya.ru/']
