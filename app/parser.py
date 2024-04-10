@@ -1,10 +1,6 @@
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 
-scope = ['https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
-gc = gspread.authorize(credentials)
-sh = gc.open('Userids')
-worksheet = sh.sheet1
 
-worksheet.insert_row([str(user_id)], 2)
+gc = gspread.service_account(
+    filename='/Users/mr1necs/Documents/GitHub/Testing-work-bot/app/testing-work-bot-8909f6be7ad6.json')
+sh = gc.open("Bot Data")
