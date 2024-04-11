@@ -1,7 +1,7 @@
 # ############################################### IMAGES ############################################### #
 
-image = ['AgACAgIAAxkBAAP8ZhW1W2IdBo_Q30_3BanZbR3TE8kAAl3eMRsKJbBIVr6Vv63oe2oBAAMCAAN5AAM0BA',
-         'AgACAgIAAxkBAAP-ZhW1YROGkHGbRMEEMEyjJFBi_PsAAl7eMRsKJbBITFprFqi-VNIBAAMCAAN5AAM0BA',
+image = ['AgACAgIAAxkBAAIB7WYX01ojjHUCJO-wTmj98xeIBgjEAAJe3jEbCiWwSExaaxaovlTSAQADAgADeQADNAQ',
+         'AgACAgIAAxkBAAIB62YX01IL5nT2IbkGKVw5PSfhDuHdAAIq2zEbeybASKmKrX5OENQCAQADAgADeQADNAQ',
          'AgACAgIAAxkBAAIBAAFmFbVmx01JEyW3n4HBKyUAAYHwY0EAAmHeMRsKJbBI9WgnyvJgHRsBAAMCAAN5AAM0BA',
          'AgACAgIAAxkBAAIBAmYVtWrNuYpulBTCZ60TIAucOmixAAJi3jEbCiWwSJxdWLuFQhdeAQADAgADeQADNAQ',
          'AgACAgIAAxkBAAIBBGYVtW6rLhYHC9JfKZCdZUhJOcrGAAJj3jEbCiWwSIPi7IWwhTdJAQADAgADeQADNAQ',
@@ -13,26 +13,26 @@ image = ['AgACAgIAAxkBAAP8ZhW1W2IdBo_Q30_3BanZbR3TE8kAAl3eMRsKJbBIVr6Vv63oe2oBAA
 
 # ############################################### VIDEOS ############################################### #
 
-video = ['BAACAgIAAxkBAAIBIGYVuVAPEmzQH1m5g9B66NgOwfxQAAIxUAACCiWwSP9Z5R4pS__SNAQ',
-         'BAACAgIAAxkBAAIBImYVuXme1fqfWkmuY1E4AoFS2dVFAAIzUAACCiWwSDp0H6TXPW18NAQ',
-         'BAACAgIAAxkBAAIBJGYVuZaltql0fddSNtDiv9rS1ObnAAI0UAACCiWwSOpvzx8iwaxaNAQ',
-         'BAACAgIAAxkBAAIBJmYVucm-jjLpNlaqI0wdSsutiXQeAAI2UAACCiWwSBKOWShRKM4INAQ',
-         'BAACAgIAAxkBAAIBKGYVue9nmk22_bCcwUFYHDHZIsiRAAI3UAACCiWwSOjFZ-1GNJrcNAQ',
-         'BAACAgIAAxkBAAIBKmYVuhrDYTLOkXTmMQeNWXJNnwb2AAI4UAACCiWwSATA1CdzyrPRNAQ',
-         'BAACAgIAAxkBAAIBLGYVujdHJMp2yQyoeEzBQvAoCqEKAAI5UAACCiWwSFrGEW0LQSNPNAQ',
-         'BAACAgIAAxkBAAIBLmYVuk7mxjo8vNnNQXvHAQwHtQXkAAI6UAACCiWwSPmXN2KIwXrxNAQ',
-         'BAACAgIAAxkBAAIBMGYVuniY6P8aX0fncRBtaf_NpIbwAAI8UAACCiWwSPp3gvNZm0TkNAQ',
-         'BAACAgIAAxkBAAIBMmYVupOnh_dnRWnaDLPuqCKnBKzjAAI9UAACCiWwSJdFBy_KHZmINAQ']
+video = ['BAACAgIAAxkBAAIB-2YX1W7uFfiP7HqRP0Pa_GjU2IpXAAKjQgACeybASIN7q3WtSgh9NAQ',
+         'BAACAgIAAxkBAAIB92YX1V3fB6l0wA8cYNfQcIesFfIZAAKgQgACeybASN3XfEBdBw25NAQ',
+         'BAACAgIAAxkBAAICAWYX1Yn-1_Lmmj4_49tlbjMuXS3iAAKmQgACeybASDpM5VCPPszlNAQ',
+         'BAACAgIAAxkBAAIB9WYX1U4Q5ibsDeVkWkIQ0ma2FD-QAAKdQgACeybASDMP70oLEwttNAQ',
+         'BAACAgIAAxkBAAIB82YX1UedWvj89JR4i3O1GgABMXr64wACnEIAAnsmwEjm8S7Kvi7WczQE',
+         'BAACAgIAAxkBAAIB8WYX1TO773ebQlxSOV38klYE7yRlAAKYQgACeybASGR2L9xB-S3uNAQ',
+         'BAACAgIAAxkBAAIB-WYX1WbHQRsrAbpE1s7XOWJiJEDgAAKhQgACeybASKQY41GvjGYJNAQ',
+         'BAACAgIAAxkBAAIB_WYX1XTj3f4mtrx0U0uRiees7Fh2AAKkQgACeybASGcZyOkCN8GQNAQ',
+         'BAACAgIAAxkBAAIB72YX1RJRbkUPw_OTCRQmmJk6phg3AAKTQgACeybASKpG8u9-bRjLNAQ',
+         'BAACAgIAAxkBAAIB_2YX1X9gwMOStKasChT_8Vzm5lcjAAKlQgACeybASJE2Ay7mLrybNAQ']
 
 # ############################################### ARTICLE ############################################### #
 
-article = ['https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/',
-           'https://ya.ru/']
+article = ['https://teletype.in/@mindreborn/MRLesson1',
+           'https://teletype.in/@mindreborn/MRLesson2',
+           'https://teletype.in/@mindreborn/MRLesson3',
+           'https://teletype.in/@mindreborn/MRLesson4',
+           'https://teletype.in/@mindreborn/MRLesson5',
+           'https://teletype.in/@mindreborn/MRLesson6',
+           'https://teletype.in/@mindreborn/MRLesson7',
+           'https://teletype.in/@mindreborn/MRLesson8',
+           'https://teletype.in/@mindreborn/MRLesson9',
+           'https://teletype.in/@mindreborn/MRLesson10']
