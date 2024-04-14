@@ -1,22 +1,38 @@
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove
 from aiogram.filters import Command
 
 import app.textboxs as text
 import app.keyboards as kb
 from app.links import image, video
 from app.parser import worksheet
+from aiogram.fsm.state import StatesGroup, State
+from aiogram.fsm.context import FSMContext
 
 router = Router()
 
 
+class GetPhone(StatesGroup):
+    phone = State()
+
+
 # ############################################### LESSON 0 ############################################### #
 @router.message(Command('start'))
-async def lesson(message: Message):
+async def share_number(message: Message, state: FSMContext):
+    await message.answer("Нажмите на кнопку ниже, чтобы отправить контакт", reply_markup=kb.contact_keyboard())
+    await state.set_state(GetPhone.phone)
+
+
+@router.message(GetPhone.phone)
+async def get_contact(message: Message, state: FSMContext):
+    contact = message.contact.phone_number
+    await message.answer("Спасибо", reply_markup=ReplyKeyboardRemove())
+    await state.clear()
+    worksheet.insert_row([str(message.from_user.id), contact], 2)
+
     welcome_text = str(text.TEXT_LESSON_0_1) + str(message.from_user.full_name) + str(text.TEXT_LESSON_0_2)
     await message.answer_photo(photo=image[0], caption=welcome_text,
                                parse_mode='HTML', reply_markup=kb.les_0)
-    worksheet.insert_row([str(message.from_user.id)], 2)
 
 
 @router.callback_query(F.data == "lesson0_video")
@@ -130,3 +146,4 @@ async def lesson(callback: CallbackQuery):
 @router.callback_query(F.data == "lesson9_video")
 async def video_lesson(callback: CallbackQuery):
     await callback.message.answer_video(video=video[9], caption="")
+
