@@ -1,5 +1,11 @@
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 from app.links import article
+
+
+def contact_keyboard():
+    keyboard = ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text="Отправить номер телефона 📱", request_contact=True)]],
+                                   resize_keyboard=True)
+    return keyboard
 
 
 def keys(button_teg, button_url=""):
