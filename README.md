@@ -1,2 +1,2 @@
-# Testing-work-bot
-Bot for testing some projects
+# MINDREBOTRN
+Bot for MIND REBOCN GROUP
