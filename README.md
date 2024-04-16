@@ -1,2 +1,2 @@
-# MINDREBOTRN
+# MindReborn
 Bot for MIND REBOCN GROUP
